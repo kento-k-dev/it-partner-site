@@ -44,9 +44,12 @@ export default function ServiceMenu() {
   return (
     <section id="services" className="bg-surface py-20 sm:py-28">
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
-        <div className="text-center mb-14" data-animate>
+        <div className="text-center mb-12" data-animate>
           <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Menu</p>
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">支援メニュー</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">支援メニュー</h2>
+          <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
+            まずは課題や方向性の整理から入り、必要に応じてWebサイトやLPの制作、公開後の改善まで一貫して支援します。
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-3 gap-5 sm:gap-6">

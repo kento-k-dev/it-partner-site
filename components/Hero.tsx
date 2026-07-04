@@ -15,11 +15,8 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
           {/* Text */}
-          <div className="text-white space-y-8">
-            <div className="space-y-4">
-              <p className="text-xs sm:text-sm font-medium text-blue-300/80 tracking-[0.2em] uppercase">
-                IT Partner for Your Business
-              </p>
+          <div className="text-white space-y-7">
+            <div className="space-y-5">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
                 事業の
                 <br />
@@ -28,14 +25,14 @@ export default function Hero() {
             </div>
 
             <p className="text-lg sm:text-xl text-blue-100/90 leading-relaxed max-w-lg">
-              中小企業・個人事業主のIT・Web・AI活用を、
+              Web制作、AI活用、アプリ企画、外注相談まで。
               <br className="hidden sm:inline" />
-              わかりやすく整理し、実行まで伴走します。
+              中小企業・個人事業主の「何から始めればいいかわからない」を、整理して実行できる形にします。
             </p>
 
-            <p className="text-sm text-blue-200/70 leading-relaxed max-w-lg pl-4 border-l-2 border-blue-400/40">
+            <p className="text-sm text-blue-200/65 leading-relaxed max-w-lg pl-4 border-l-2 border-blue-400/40">
               総合コンサル・大手SIerでの開発・プロジェクトマネジメント経験をもとに、
-              事業に必要なIT活用を現実的に設計します。
+              事業に必要なIT活用を、わかりやすく現実的に整理します。
             </p>
 
             <div className="flex flex-wrap gap-3 sm:gap-4 pt-2">

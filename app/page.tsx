@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import PainPoints from '@/components/PainPoints'
 import ValueProposition from '@/components/ValueProposition'
 import ConsultationTopics from '@/components/ConsultationTopics'
+import ConsultationExamples from '@/components/ConsultationExamples'
 import WhyUs from '@/components/WhyUs'
 import Profile from '@/components/Profile'
 import ServiceMenu from '@/components/ServiceMenu'
@@ -24,6 +25,7 @@ export default function Home() {
         <PainPoints />
         <ValueProposition />
         <ConsultationTopics />
+        <ConsultationExamples />
         <WhyUs />
         <Profile />
         <ServiceMenu />

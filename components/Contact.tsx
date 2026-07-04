@@ -38,6 +38,9 @@ export default function Contact() {
             現在は、ご紹介・既存のおつながりのある方を中心に、IT・Web・AI活用に関するご相談を承っています。
             新規でのお問い合わせも可能ですが、ご相談内容を確認したうえで、対応可否をご連絡いたします。
           </p>
+          <p className="mt-3 text-sm text-blue-300/60 leading-relaxed">
+            まだ発注内容が固まっていない段階でも問題ありません。まずは整理や方向性の確認からご相談いただけます。
+          </p>
         </div>
 
         {submitted ? (
