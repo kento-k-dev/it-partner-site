@@ -1,3 +1,5 @@
+import { Fragment } from 'react'
+
 const STEPS = [
   {
     num: '01',
@@ -35,47 +37,41 @@ export default function ConsultationFlow() {
           <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">ご相談の流れ</h2>
         </div>
 
-        {/* Desktop: horizontal */}
-        <div className="hidden sm:block" data-animate>
-          <div className="flex items-start gap-0">
-            {STEPS.map((step, i) => (
-              <div key={step.num} className="flex-1 flex flex-col items-center">
-                {/* Number + connector */}
-                <div className="flex items-center w-full">
-                  {i > 0 && <div className="flex-1 h-px bg-navy-100 mt-px" />}
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-navy-800 text-white flex items-center justify-center font-bold text-sm">
-                    {step.num}
-                  </div>
-                  {i < STEPS.length - 1 && <div className="flex-1 h-px bg-navy-100 mt-px" />}
-                  {i === STEPS.length - 1 && <div className="flex-1" />}
+        {/*
+          Single unified render for both mobile and desktop.
+          Mobile  (default) : flex-col — steps stack vertically, connector = vertical 1px line
+          Desktop (sm:)     : flex-row — steps sit side-by-side, connector = horizontal 1px line
+        */}
+        <div className="flex flex-col sm:flex-row sm:items-start" data-animate>
+          {STEPS.map((step, i) => (
+            <Fragment key={step.num}>
+              {/* Connector between steps */}
+              {i > 0 && (
+                <div
+                  aria-hidden="true"
+                  className={[
+                    // Mobile: vertical line aligned under circle center (circle = w-12 = 3rem, half = 1.5rem = 24px ≈ ml-6)
+                    'w-px h-5 ml-6 bg-navy-100',
+                    // Desktop: horizontal line at mt-6 (= 1.5rem) to align with circle vertical center
+                    'sm:flex-1 sm:h-px sm:w-auto sm:mt-6 sm:ml-0',
+                  ].join(' ')}
+                />
+              )}
+
+              {/* Step item */}
+              <div className="flex flex-row items-start gap-3 sm:flex-col sm:flex-1 sm:items-center sm:gap-0">
+                {/* Circle */}
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-navy-800 text-white flex items-center justify-center font-bold text-sm">
+                  {step.num}
                 </div>
-                {/* Content */}
-                <div className="text-center mt-4 px-2">
-                  <p className="font-bold text-navy-900 text-sm mb-1.5">{step.title}</p>
+
+                {/* Text */}
+                <div className="pt-2 flex-1 sm:flex-none sm:text-center sm:mt-4 sm:px-2 sm:pt-0">
+                  <p className="font-bold text-navy-900 text-sm mb-1">{step.title}</p>
                   <p className="text-xs text-slate-500 leading-relaxed">{step.body}</p>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Mobile: vertical */}
-        <div className="sm:hidden space-y-0" data-animate>
-          {STEPS.map((step, i) => (
-            <div key={step.num} className="flex gap-4">
-              <div className="flex flex-col items-center">
-                <div className="w-10 h-10 rounded-full bg-navy-800 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                  {step.num}
-                </div>
-                {i < STEPS.length - 1 && (
-                  <div className="w-px flex-1 bg-navy-100 my-1" style={{ minHeight: '1.5rem' }} />
-                )}
-              </div>
-              <div className="pb-6 pt-1.5">
-                <p className="font-bold text-navy-900 mb-1">{step.title}</p>
-                <p className="text-sm text-slate-500 leading-relaxed">{step.body}</p>
-              </div>
-            </div>
+            </Fragment>
           ))}
         </div>
       </div>
