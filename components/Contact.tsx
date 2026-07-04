@@ -41,6 +41,9 @@ export default function Contact() {
           <p className="mt-3 text-sm text-blue-300/60 leading-relaxed">
             まだ発注内容が固まっていない段階でも問題ありません。まずは整理や方向性の確認からご相談いただけます。
           </p>
+          <p className="mt-2 text-sm text-blue-300/60 leading-relaxed">
+            ご紹介・既存のおつながりのある方は、初回30分の無料相談も可能です。具体的な提案や整理を伴うご相談は、有料にて承ります。
+          </p>
         </div>
 
         {submitted ? (

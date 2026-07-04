@@ -4,27 +4,27 @@ const STEPS = [
   {
     num: '01',
     title: 'お問い合わせ',
-    body: '相談内容、事業内容、現在の課題を簡単にお送りください。',
+    body: '事業内容、ご相談内容、現在困っていることを簡単にお送りください。ご紹介・既存のおつながりのある方は、初回30分の無料相談も可能です。',
   },
   {
     num: '02',
-    title: '内容確認',
-    body: 'ご相談内容を確認し、対応可能かどうかをご連絡します。',
+    title: '内容確認・初回相談',
+    body: 'ご相談内容を確認し、初回相談にて現状や目的、進め方の方向性を整理します。初回無料相談は、ご紹介・既存のおつながりのある方を対象としています。',
   },
   {
     num: '03',
-    title: '初回相談',
-    body: '現状や目的を伺い、必要な進め方を整理します。',
+    title: '有料相談・整理サポートのご案内',
+    body: '具体的な提案、調査、構成整理、要件整理などが必要な場合は、内容に応じて有料相談または整理サポートをご案内します。',
   },
   {
     num: '04',
     title: 'ご提案',
-    body: '単発相談、整理サポート、継続支援など、状況に合った形をご提案します。',
+    body: 'スポット相談、整理サポート、継続支援、Webサイト・LP制作など、状況に合った進め方をご提案します。',
   },
   {
     num: '05',
     title: '支援開始',
-    body: '合意した内容に沿って、相談・整理・制作・伴走支援を進めます。',
+    body: '合意した内容に沿って、相談、整理、企画、制作、改善支援を進めます。制作を伴う場合は、進め方とお支払い条件を確認のうえ着手します。',
   },
 ]
 
@@ -34,7 +34,10 @@ export default function ConsultationFlow() {
       <div className="max-w-4xl mx-auto px-5 sm:px-8">
         <div className="text-center mb-14" data-animate>
           <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Flow</p>
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">ご相談の流れ</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">ご相談の流れ</h2>
+          <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
+            いきなり制作や開発に進むのではなく、まずは現状や目的を整理し、必要な進め方を確認したうえでご提案します。
+          </p>
         </div>
 
         {/*
