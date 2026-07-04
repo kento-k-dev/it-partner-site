@@ -155,7 +155,7 @@ function HeroIllustration() {
       <circle cx="53" cy="78" r="2.2" fill="rgba(96,165,250,0.7)"/>
       <circle cx="59.5" cy="78" r="2.2" fill="rgba(96,165,250,0.5)"/>
       <text x="65" y="109" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">Web制作</text>
-      <line x1="102" y1="53" x2="155" y2="26" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <line x1="110" y1="116" x2="132" y2="129" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BL: 外注相談 (blue) */}
       <circle cx="65" cy="240" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
@@ -163,7 +163,7 @@ function HeroIllustration() {
       <path d="M45 232 L53 225 L65 230 L77 225 L85 232" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <path d="M46 238 L65 246 L84 238" stroke="rgba(96,165,250,0.5)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <text x="65" y="259" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
-      <line x1="100" y1="278" x2="155" y2="311" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <line x1="110" y1="214" x2="132" y2="201" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle TR: IT活用 (teal) */}
       <circle cx="655" cy="90" r="52" stroke="rgba(20,184,166,0.2)" strokeWidth="1.5" fill="rgba(20,184,166,0.03)"/>
@@ -175,7 +175,7 @@ function HeroIllustration() {
       <path d="M640 91 L647 82 L653 85 L660 75" stroke="rgba(212,170,74,0.9)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <circle cx="660" cy="75" r="2.5" fill="rgba(212,170,74,0.9)"/>
       <text x="655" y="109" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">IT活用</text>
-      <line x1="618" y1="53" x2="565" y2="26" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <line x1="610" y1="116" x2="588" y2="129" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BR: AI活用 (violet) */}
       <circle cx="655" cy="240" r="52" stroke="rgba(139,92,246,0.2)" strokeWidth="1.5" fill="rgba(139,92,246,0.03)"/>
@@ -198,7 +198,7 @@ function HeroIllustration() {
       <line x1="669" y1="244" x2="673" y2="244" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
       <text x="655" y="242" textAnchor="middle" fill="rgba(139,92,246,0.95)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="800">AI</text>
       <text x="655" y="261" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
-      <line x1="620" y1="278" x2="565" y2="311" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <line x1="610" y1="214" x2="588" y2="201" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
     </svg>
   )
 }
