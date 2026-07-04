@@ -10,7 +10,6 @@ import Profile from '@/components/Profile'
 import ServiceMenu from '@/components/ServiceMenu'
 import ConsultationFlow from '@/components/ConsultationFlow'
 import Values from '@/components/Values'
-import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -31,8 +30,7 @@ export default function Home() {
         <ServiceMenu />
         <ConsultationFlow />
         <Values />
-        <Pricing />
-        <FAQ />
+<FAQ />
         <Contact />
       </main>
       <Footer />

@@ -6,7 +6,7 @@ const NAV_ITEMS = [
   { label: 'できること',   href: '#consultation-topics' },
   { label: '選ばれる理由', href: '#why-us' },
   { label: 'プロフィール', href: '#profile' },
-  { label: '料金',         href: '#pricing' },
+  { label: 'メニュー・料金', href: '#services' },
   { label: '相談する',     href: '#contact', cta: true },
 ]
 
