@@ -97,62 +97,128 @@ function ArrowRight() {
 function HeroIllustration() {
   return (
     <svg
-      viewBox="0 0 480 380"
+      viewBox="0 0 520 380"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full max-w-md"
+      className="w-full max-w-lg"
       aria-hidden="true"
     >
       {/* Laptop body */}
-      <rect x="60" y="40" width="320" height="220" rx="12" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" fill="rgba(255,255,255,0.04)"/>
-      {/* Laptop top bar */}
-      <rect x="60" y="40" width="320" height="28" rx="12" fill="rgba(255,255,255,0.07)"/>
-      <circle cx="82" cy="54" r="4" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="96" cy="54" r="4" fill="rgba(255,255,255,0.1)"/>
-      <circle cx="110" cy="54" r="4" fill="rgba(255,255,255,0.07)"/>
+      <rect x="128" y="28" width="264" height="212" rx="14" stroke="rgba(255,255,255,0.18)" strokeWidth="1.5" fill="rgba(10,20,45,0.85)"/>
+      {/* Title bar */}
+      <rect x="128" y="28" width="264" height="34" rx="14" fill="rgba(255,255,255,0.06)"/>
+      <rect x="128" y="48" width="264" height="14" fill="rgba(255,255,255,0.06)"/>
+      <circle cx="150" cy="45" r="4.5" fill="rgba(255,255,255,0.2)"/>
+      <circle cx="165" cy="45" r="4.5" fill="rgba(255,255,255,0.12)"/>
+      <circle cx="180" cy="45" r="4.5" fill="rgba(255,255,255,0.07)"/>
+      {/* Screen */}
+      <rect x="136" y="66" width="248" height="166" rx="3" fill="rgba(5,12,30,0.95)"/>
 
-      {/* Flowchart nodes */}
-      {/* Node 1: 課題整理 */}
-      <rect x="100" y="95" width="90" height="34" rx="7" stroke="rgba(147,197,253,0.65)" strokeWidth="1.5" fill="rgba(147,197,253,0.1)"/>
-      <text x="145" y="117" textAnchor="middle" fill="rgba(147,197,253,0.9)" fontSize="10" fontFamily="system-ui">課題の整理</text>
+      {/* Card 1: 課題を整理 (blue) */}
+      <rect x="140" y="72" width="70" height="130" rx="7" stroke="rgba(96,165,250,0.7)" strokeWidth="1.5" fill="rgba(96,165,250,0.07)"/>
+      <circle cx="175" cy="102" r="18" stroke="rgba(96,165,250,0.4)" strokeWidth="1.2" fill="rgba(96,165,250,0.12)"/>
+      <circle cx="173" cy="100" r="7.5" stroke="rgba(96,165,250,0.9)" strokeWidth="1.5" fill="none"/>
+      <line x1="179" y1="106" x2="185" y2="112" stroke="rgba(96,165,250,0.9)" strokeWidth="1.5" strokeLinecap="round"/>
+      <text x="175" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
+      <text x="175" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">現状や目的を整理し、</text>
+      <text x="175" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">本質的な課題を</text>
+      <text x="175" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">明確にします。</text>
 
       {/* Arrow 1→2 */}
-      <line x1="190" y1="112" x2="218" y2="112" stroke="rgba(255,255,255,0.25)" strokeWidth="1.5"/>
-      <polygon points="218,107 228,112 218,117" fill="rgba(255,255,255,0.25)"/>
+      <line x1="212" y1="132" x2="222" y2="132" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M219 128 L225 132 L219 136" stroke="rgba(255,255,255,0.4)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
-      {/* Node 2: 設計・整理 */}
-      <rect x="228" y="95" width="90" height="34" rx="7" stroke="rgba(167,243,208,0.65)" strokeWidth="1.5" fill="rgba(167,243,208,0.09)"/>
-      <text x="273" y="117" textAnchor="middle" fill="rgba(167,243,208,0.9)" fontSize="10" fontFamily="system-ui">設計・整理</text>
+      {/* Card 2: 進め方を設計 (green) */}
+      <rect x="226" y="72" width="70" height="130" rx="7" stroke="rgba(52,211,153,0.7)" strokeWidth="1.5" fill="rgba(52,211,153,0.07)"/>
+      <circle cx="261" cy="102" r="18" stroke="rgba(52,211,153,0.4)" strokeWidth="1.2" fill="rgba(52,211,153,0.12)"/>
+      <rect x="254" y="91" width="14" height="19" rx="2" stroke="rgba(52,211,153,0.9)" strokeWidth="1.4" fill="none"/>
+      <rect x="257" y="88" width="8" height="5" rx="1.5" stroke="rgba(52,211,153,0.7)" strokeWidth="1.2" fill="rgba(52,211,153,0.25)"/>
+      <line x1="257" y1="97" x2="265" y2="97" stroke="rgba(52,211,153,0.7)" strokeWidth="1.1" strokeLinecap="round"/>
+      <line x1="257" y1="101" x2="265" y2="101" stroke="rgba(52,211,153,0.6)" strokeWidth="1.1" strokeLinecap="round"/>
+      <line x1="257" y1="105" x2="263" y2="105" stroke="rgba(52,211,153,0.5)" strokeWidth="1.1" strokeLinecap="round"/>
+      <text x="261" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
+      <text x="261" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">優先順位や進め方を</text>
+      <text x="261" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">設計し、判断しやすい</text>
+      <text x="261" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">計画をつくります。</text>
 
-      {/* Arrow 2↓3 */}
-      <line x1="273" y1="129" x2="273" y2="155" stroke="rgba(255,255,255,0.25)" strokeWidth="1.5"/>
-      <polygon points="268,155 273,165 278,155" fill="rgba(255,255,255,0.25)"/>
+      {/* Arrow 2→3 */}
+      <line x1="298" y1="132" x2="308" y2="132" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M305 128 L311 132 L305 136" stroke="rgba(255,255,255,0.4)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
-      {/* Node 3: 実行・伴走 */}
-      <rect x="188" y="165" width="90" height="34" rx="7" stroke="rgba(253,230,138,0.65)" strokeWidth="1.5" fill="rgba(253,230,138,0.09)"/>
-      <text x="233" y="187" textAnchor="middle" fill="rgba(253,230,138,0.9)" fontSize="10" fontFamily="system-ui">実行・伴走</text>
+      {/* Card 3: 実行を伴走 (gold) */}
+      <rect x="312" y="72" width="70" height="130" rx="7" stroke="rgba(212,170,74,0.7)" strokeWidth="1.5" fill="rgba(212,170,74,0.07)"/>
+      <circle cx="347" cy="102" r="18" stroke="rgba(212,170,74,0.4)" strokeWidth="1.2" fill="rgba(212,170,74,0.12)"/>
+      <circle cx="347" cy="96" r="6" stroke="rgba(212,170,74,0.9)" strokeWidth="1.4" fill="none"/>
+      <path d="M336 112 C336 106 341 103 347 103 C353 103 358 106 358 112" stroke="rgba(212,170,74,0.9)" strokeWidth="1.4" strokeLinecap="round" fill="none"/>
+      <text x="347" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
+      <text x="347" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">実行段階も伴走しながら、</text>
+      <text x="347" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">着実な前進を</text>
+      <text x="347" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">支援します。</text>
 
       {/* Laptop base */}
-      <path d="M 30 262 Q 30 274 44 274 L 436 274 Q 450 274 450 262 L 380 262 L 100 262 Z" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
-      <rect x="190" y="260" width="100" height="4" rx="2" fill="rgba(255,255,255,0.08)"/>
+      <path d="M82 242 Q82 254 96 254 L424 254 Q438 254 438 242 L392 242 L128 242 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
+      <rect x="216" y="240" width="88" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
 
-      {/* Floating badges */}
-      <circle cx="410" cy="90" r="36" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
-      <circle cx="410" cy="90" r="24" stroke="rgba(255,255,255,0.15)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
-      <text x="410" y="87" textAnchor="middle" fill="rgba(255,255,255,0.55)" fontSize="11" fontFamily="system-ui" fontWeight="500">IT</text>
-      <text x="410" y="100" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="8" fontFamily="system-ui">活用</text>
+      {/* Circle TL: Web制作 */}
+      <circle cx="52" cy="110" r="48" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
+      <circle cx="52" cy="110" r="36" stroke="rgba(255,255,255,0.12)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
+      <rect x="38" y="95" width="28" height="20" rx="3" stroke="rgba(255,255,255,0.55)" strokeWidth="1.3" fill="none"/>
+      <line x1="38" y1="101" x2="66" y2="101" stroke="rgba(255,255,255,0.3)" strokeWidth="1"/>
+      <circle cx="43" cy="98" r="1.5" fill="rgba(255,255,255,0.4)"/>
+      <circle cx="48" cy="98" r="1.5" fill="rgba(255,255,255,0.28)"/>
+      <text x="52" y="125" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">Web制作</text>
+      <text x="52" y="135" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">サイトやLP制作の</text>
+      <text x="52" y="144" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">進め方を整理</text>
+      <line x1="97" y1="102" x2="127" y2="76" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
-      <circle cx="50" cy="195" r="28" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
-      <circle cx="50" cy="195" r="18" stroke="rgba(255,255,255,0.12)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
-      <text x="50" y="192" textAnchor="middle" fill="rgba(255,255,255,0.5)" fontSize="9" fontFamily="system-ui">Web</text>
-      <text x="50" y="204" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="7" fontFamily="system-ui">制作</text>
+      {/* Circle BL: 外注相談 */}
+      <circle cx="52" cy="298" r="48" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
+      <circle cx="52" cy="298" r="36" stroke="rgba(255,255,255,0.12)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
+      <path d="M38 294 L44 289 L52 293 L60 289 L66 294" stroke="rgba(255,255,255,0.55)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <path d="M39 298 L52 305 L65 298" stroke="rgba(255,255,255,0.3)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <text x="52" y="317" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
+      <text x="52" y="327" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">制作会社選定や</text>
+      <text x="52" y="336" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">見積もりの整理を支援</text>
+      <line x1="97" y1="283" x2="127" y2="240" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
-      <circle cx="420" cy="310" r="26" stroke="rgba(255,255,255,0.08)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
-      <text x="420" y="307" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="10" fontFamily="system-ui">AI</text>
-      <text x="420" y="320" textAnchor="middle" fill="rgba(255,255,255,0.3)" fontSize="7" fontFamily="system-ui">活用</text>
+      {/* Circle TR: IT活用 */}
+      <circle cx="468" cy="110" r="48" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
+      <circle cx="468" cy="110" r="36" stroke="rgba(255,255,255,0.12)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
+      <rect x="454" y="98" width="6" height="14" rx="1.5" fill="rgba(255,255,255,0.38)"/>
+      <rect x="462" y="93" width="6" height="19" rx="1.5" fill="rgba(255,255,255,0.48)"/>
+      <rect x="470" y="87" width="6" height="25" rx="1.5" fill="rgba(255,255,255,0.58)"/>
+      <line x1="452" y1="113" x2="478" y2="113" stroke="rgba(255,255,255,0.25)" strokeWidth="1"/>
+      <path d="M457 109 L462 104 L467 107 L472 99" stroke="rgba(212,170,74,0.85)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <circle cx="472" cy="99" r="2" fill="rgba(212,170,74,0.85)"/>
+      <text x="468" y="125" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">IT活用</text>
+      <text x="468" y="135" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">業務や事業に合う</text>
+      <text x="468" y="144" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">IT活用を検討</text>
+      <line x1="423" y1="102" x2="393" y2="76" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
-      <circle cx="60" cy="330" r="20" stroke="rgba(255,255,255,0.07)" strokeWidth="1" fill="rgba(255,255,255,0.02)"/>
-      <text x="60" y="334" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="9" fontFamily="system-ui">PM</text>
+      {/* Circle BR: AI活用 */}
+      <circle cx="468" cy="298" r="48" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
+      <circle cx="468" cy="298" r="36" stroke="rgba(255,255,255,0.12)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
+      <rect x="455" y="283" width="26" height="26" rx="3.5" stroke="rgba(255,255,255,0.5)" strokeWidth="1.3" fill="none"/>
+      <rect x="459" y="287" width="18" height="18" rx="2" stroke="rgba(255,255,255,0.2)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
+      <line x1="461" y1="283" x2="461" y2="280" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="465" y1="283" x2="465" y2="280" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="469" y1="283" x2="469" y2="280" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="473" y1="283" x2="473" y2="280" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="461" y1="309" x2="461" y2="312" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="465" y1="309" x2="465" y2="312" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="469" y1="309" x2="469" y2="312" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="473" y1="309" x2="473" y2="312" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="455" y1="290" x2="452" y2="290" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="455" y1="295" x2="452" y2="295" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="455" y1="300" x2="452" y2="300" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="481" y1="290" x2="484" y2="290" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="481" y1="295" x2="484" y2="295" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <line x1="481" y1="300" x2="484" y2="300" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
+      <text x="468" y="300" textAnchor="middle" fill="rgba(255,255,255,0.65)" fontSize="7.5" fontFamily="system-ui,sans-serif" fontWeight="700">AI</text>
+      <text x="468" y="319" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
+      <text x="468" y="329" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">AIの活用テーマや</text>
+      <text x="468" y="338" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">導入ステップを整理</text>
+      <line x1="423" y1="283" x2="393" y2="240" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
     </svg>
   )
 }
