@@ -76,12 +76,7 @@ export default function Values() {
           </div>
         </div>
 
-        <div className="mt-8 text-center max-w-xl mx-auto" data-animate>
-          <p className="text-sm text-slate-500 leading-relaxed">
-            お互いに気持ちよく進めるため、ご相談内容や進め方によってはお受けできない場合があります。
-            あらかじめご了承ください。
-          </p>
-        </div>
+
       </div>
     </section>
   )
