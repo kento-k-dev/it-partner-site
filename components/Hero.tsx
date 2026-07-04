@@ -30,9 +30,21 @@ export default function Hero() {
             </h1>
 
             {/* 3. Body */}
-            <p className="text-sm sm:text-base text-blue-100/75 leading-relaxed max-w-md">
-              総合コンサル・大手SIerでの開発・プロジェクトマネジメント経験をもとに、Web制作、AI活用、外注相談などを、事業に必要な形でわかりやすく整理し、実行まで伴走します。
-            </p>
+            <div className="text-sm sm:text-base text-blue-100/75 leading-relaxed max-w-md space-y-3">
+              <ul className="space-y-2">
+                {[
+                  '新しくWebサイトやLPを作りたい',
+                  '制作会社への依頼内容を整理したい',
+                  'AIを使いたいが、どこから始めるべきかわからない',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5">
+                    <span className="flex-shrink-0 mt-[9px] w-1.5 h-1.5 rounded-full bg-blue-300/50" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p>そんなときに、必要な判断材料を整理し、進め方を明確にします。</p>
+            </div>
 
             {/* 4. CTAs */}
             <div className="flex flex-wrap gap-3 sm:gap-4 pt-2">

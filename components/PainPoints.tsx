@@ -1,11 +1,11 @@
 const PROBLEMS = [
-  'Webサイトを作りたいが、何を載せるべきかわからない',
-  '制作会社に相談する前に、方向性を整理したい',
-  'AIを使ってみたいが、仕事にどう活かせるかわからない',
-  'アプリやWebサービスのアイデアを形にしたい',
-  '開発会社の見積もりや提案内容が妥当か判断できない',
+  'Webサイトを作りたいが、何を載せるべきか決まっていない',
+  '制作会社に相談する前に、依頼内容を整理したい',
+  '見積もりや提案内容が妥当か判断しづらい',
+  'AIを使いたいが、どの業務から始めるべきかわからない',
+  'ツール導入を考えているが、何から着手すべきかわからない',
   '社内にITの相談相手がいない',
-  'ツール導入や業務効率化を進めたいが、優先順位が決められない',
+  'アプリやサービスを形にしたいが、開発に進む前に整理したい',
 ]
 
 export default function PainPoints() {
@@ -39,8 +39,8 @@ export default function PainPoints() {
 
         <div className="text-center max-w-2xl mx-auto" data-animate>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-            こうした曖昧な状態をそのまま相談できる、<br className="hidden sm:inline" />
-            <span className="font-semibold text-navy-800">事業に必要なIT活用を整理するパートナー</span>として伴走します。
+            こうした<span className="font-semibold text-navy-800">"今ちょうど判断に迷う局面"</span>を、<br className="hidden sm:inline" />
+            整理しながら前に進めます。
           </p>
         </div>
       </div>

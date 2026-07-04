@@ -45,6 +45,19 @@ export default function Contact() {
           <p className="mt-2 text-sm text-blue-300/60 leading-relaxed">
             ご紹介・既存のおつながりのある方は、初回30分の無料相談も可能です。具体的な提案や整理を伴うご相談は、有料にて承ります。
           </p>
+          <ul className="mt-5 inline-flex flex-col items-start gap-2 text-sm text-blue-200/65 text-left">
+            {[
+              'サイトを作りたいが、何を載せるべきかわからない',
+              '制作会社・開発会社の見積もりの妥当性を見てほしい',
+              'AIをどこから使い始めるべきか整理したい',
+              'まだ発注内容が固まっていない段階でも相談できます',
+            ].map((item) => (
+              <li key={item} className="flex items-start gap-2">
+                <span className="flex-shrink-0 mt-[9px] w-1 h-1 rounded-full bg-blue-300/50" />
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
 
         {submitted ? (

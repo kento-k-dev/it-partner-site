@@ -2,7 +2,7 @@ const EXAMPLES = [
   {
     tag: '相談例 01',
     title: 'パーソナルトレーナーの紹介用LP企画・制作支援',
-    body: '強みの整理、掲載内容の構成、問い合わせ導線の設計を行い、紹介やSNSから見てもらうためのLPづくりを支援。',
+    body: '何を載せるべきか・どう構成するかを整理し、紹介やSNSから見てもらいやすいLPとして形にできた状態に。',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <rect x="4" y="5" width="20" height="18" rx="3" stroke="#1a3558" strokeWidth="1.5" fill="none"/>
@@ -16,7 +16,7 @@ const EXAMPLES = [
   {
     tag: '相談例 02',
     title: '制作会社に依頼する前の要件整理サポート',
-    body: 'Webサイトを作りたいが、何をどこまで依頼すべきか分からない方向けに、目的・必要ページ・掲載内容・進め方を整理。',
+    body: '目的・必要ページ・依頼範囲を整理し、外注前に何をどこまで頼むべきかが明確になった状態に。',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M5 14 L5 23 L23 23 L23 14" stroke="#1a3558" strokeWidth="1.5" strokeLinecap="round" fill="none"/>
@@ -29,7 +29,7 @@ const EXAMPLES = [
   {
     tag: '相談例 03',
     title: '個人事業主向けのAI活用・業務整理支援',
-    body: '日々の情報整理、文章作成、問い合わせ対応などにAIをどう活かせるかを整理し、無理なく取り入れられる形を一緒に検討。',
+    body: 'どの業務から始めるべきかを整理し、AIを日々の業務に無理なく取り入れられる状態に。',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <circle cx="14" cy="14" r="9" stroke="#1a3558" strokeWidth="1.5" fill="none"/>
@@ -53,7 +53,7 @@ export default function ConsultationExamples() {
             こんなご相談に対応しています
           </h2>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
-            事業の状況や課題に合わせて、整理・企画・制作・改善まで必要な形で支援します。
+            判断しやすい状態をつくることで、実際に動き出した場面の例です。実名・社名は使用していません。
           </p>
         </div>
 

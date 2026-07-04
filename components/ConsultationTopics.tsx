@@ -10,8 +10,8 @@ const TOPICS = [
         <rect x="9" y="22" width="10" height="3" rx="1" fill="#1a3558" opacity="0.2"/>
       </svg>
     ),
-    title: 'Webサイト・LP制作の企画・制作支援',
-    body: '目的整理、構成作成、掲載内容の整理から、必要に応じた制作・公開支援まで対応します。',
+    title: 'Webサイト・LPを作る前の整理',
+    body: '何を載せるべきか、どういう構成にするか、目的は何かを整理します。制作に入る前に方向性を決めておきたい方に。',
   },
   {
     icon: (
@@ -22,8 +22,8 @@ const TOPICS = [
         <circle cx="14" cy="14" r="2.5" fill="#1a3558" opacity="0.4"/>
       </svg>
     ),
-    title: 'AI活用・業務効率化の相談',
-    body: 'ChatGPTなどのAIツールを、日々の業務や情報整理、文章作成、顧客対応にどう活かすかを一緒に考えます。',
+    title: 'AI活用の最初のテーマ整理',
+    body: 'どの業務にAIを取り入れるか、何から始めるべきかを整理します。AIは気になるが、どこから手をつけるべきか分からない方に。',
   },
   {
     icon: (
@@ -35,8 +35,8 @@ const TOPICS = [
         <line x1="20" y1="15" x2="14" y2="19" stroke="#1a3558" strokeWidth="1" strokeLinecap="round" opacity="0.4"/>
       </svg>
     ),
-    title: 'アプリ・Webサービス企画の整理',
-    body: 'アイデア段階のサービスについて、機能、ターゲット、実現方法、開発の進め方を整理します。',
+    title: 'アプリ・Webサービスの企画整理',
+    body: 'アイデアを形にする前に、機能・ターゲット・実現方法・開発の進め方を整理します。開発会社に相談する前の段階に。',
   },
   {
     icon: (
@@ -49,8 +49,8 @@ const TOPICS = [
         <line x1="22" y1="18.5" x2="24" y2="20.5" stroke="#1a3558" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
       </svg>
     ),
-    title: '外注・見積もり相談',
-    body: '制作会社・開発会社からの提案や見積もりについて、内容の整理や確認ポイントを一緒に見ます。',
+    title: '制作会社・開発会社に依頼する前の整理',
+    body: '提案内容・見積もりの妥当性確認、依頼範囲の整理、外注前の要件整理をサポートします。',
   },
   {
     icon: (
@@ -65,8 +65,8 @@ const TOPICS = [
         <rect x="15" y="22" width="6" height="3" rx="1" stroke="#1a3558" strokeWidth="1.2" fill="none" opacity="0.3"/>
       </svg>
     ),
-    title: '業務フロー・ツール導入相談',
-    body: '予約管理、顧客管理、請求、情報共有など、業務に合ったツール選びや運用方法を整理します。',
+    title: '業務改善やツール導入の方向整理',
+    body: '何から着手すべきか、どのツールが事業に合うか、優先順位を整理します。導入前に方向性を確認したい方に。',
   },
 ]
 
@@ -76,7 +76,10 @@ export default function ConsultationTopics() {
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
         <div className="text-center mb-14" data-animate>
           <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Services</p>
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">ご相談いただけること</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">こういう局面でご相談いただいています</h2>
+          <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
+            ITや制作の機能を提供するというより、今まさに判断が必要な局面を整理するための支援です。
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -64,6 +64,16 @@ const REASONS = [
       </svg>
     ),
   },
+  {
+    title: '成果を約束する前に、判断材料を整える',
+    body: 'いきなり制作や導入を進めるのではなく、何を優先すべきか、どこまで外注するか、どう進めるかを整理し、判断しやすい状態をつくります。',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 3L3 8v8l9 5 9-5V8z" stroke="#1a3558" strokeWidth="1.5" fill="none"/>
+        <path d="M12 3v13M3 8l9 5 9-5" stroke="#1a3558" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
+      </svg>
+    ),
+  },
 ]
 
 export default function WhyUs() {
