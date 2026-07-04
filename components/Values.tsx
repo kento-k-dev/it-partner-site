@@ -1,26 +1,32 @@
 const GOOD_FIT = [
-  '事業をよくするためにITやWebを活用したい方',
-  '何から始めればよいか一緒に整理したい方',
-  '長期的に相談できる相手を探している方',
-  '制作や開発の前に、目的や要件を整理したい方',
-  '必要な投資として、IT活用を考えたい方',
+  'WebサイトやIT活用について、何から始めるべきか整理したいご相談',
+  '制作や開発の前に、目的や進め方を明確にしたいご相談',
+  '外注前に、必要なページや要件を整理したいご相談',
+  'AI活用や業務改善を、無理のない形で取り入れたいご相談',
+  '単発ではなく、事業に合わせて少しずつ改善を進めたいご相談',
 ]
 
 const DIFFICULT = [
-  'とにかく安く作ることだけを目的としたご相談',
-  '無料での詳細な調査・提案を前提としたご相談',
-  '短期間で過度な成果を保証するようなご依頼',
-  '目的や条件が大きく変わり続けるご依頼',
-  '相互の信頼関係を築くことが難しいと判断されるご相談',
+  '価格の安さだけを重視したご相談',
+  '無料での詳細な調査や提案を前提としたご相談',
+  '短期間で大きな成果を保証することを求めるご相談',
+  '目的や条件の変更が大きく、進め方を定めにくいご相談',
+  '相互の信頼関係を築きながら進めることが難しいご相談',
 ]
 
 export default function Values() {
   return (
     <section id="values" className="bg-surface py-20 sm:py-28">
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
-        <div className="text-center mb-14" data-animate>
+        <div className="text-center mb-10" data-animate>
           <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Our Values</p>
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">大切にしていること</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-5">大切にしていること</h2>
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl mx-auto">
+            事業にとって本当に必要な形でITやWebを活かすために、進め方やご相談内容との相性を大切にしています。
+          </p>
+          <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto mt-2">
+            そのため、ご相談の内容や進め方によっては、特にご一緒しやすいものと、対応が難しいものがあります。
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
@@ -32,7 +38,7 @@ export default function Values() {
                   <path d="M4 9.5l3 3 7-7" stroke="#1a3558" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="font-bold text-navy-900 text-lg">対応しやすい方</h3>
+              <h3 className="font-bold text-navy-900 text-lg">お受けしやすいご相談</h3>
             </div>
             <ul className="space-y-3">
               {GOOD_FIT.map((text) => (
@@ -55,7 +61,7 @@ export default function Values() {
                   <line x1="13" y1="5" x2="5" y2="13" stroke="#94a3b8" strokeWidth="1.8" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-bold text-slate-700 text-lg">対応が難しい相談</h3>
+              <h3 className="font-bold text-slate-700 text-lg">対応が難しいご相談</h3>
             </div>
             <ul className="space-y-3">
               {DIFFICULT.map((text) => (
