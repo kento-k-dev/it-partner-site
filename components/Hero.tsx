@@ -97,108 +97,108 @@ function ArrowRight() {
 function HeroIllustration() {
   return (
     <svg
-      viewBox="0 0 720 416"
+      viewBox="0 0 720 260"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-full max-w-lg"
       aria-hidden="true"
     >
-      {/* Laptop body */}
-      <rect x="132" y="26" width="456" height="356" rx="16" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" fill="rgba(8,18,42,0.95)"/>
-      <circle cx="158" cy="46" r="5.5" fill="rgba(255,255,255,0.22)"/>
-      <circle cx="175" cy="46" r="5.5" fill="rgba(255,255,255,0.13)"/>
-      <circle cx="192" cy="46" r="5.5" fill="rgba(255,255,255,0.08)"/>
-      <line x1="144" y1="68" x2="576" y2="68" stroke="rgba(255,255,255,0.08)" strokeWidth="1"/>
-      <rect x="144" y="70" width="432" height="300" rx="4" fill="rgba(4,10,28,0.97)"/>
+      {/* Laptop body — wide, reduced height */}
+      <rect x="132" y="24" width="456" height="196" rx="16" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" fill="rgba(8,18,42,0.95)"/>
+      <circle cx="158" cy="42" r="5" fill="rgba(255,255,255,0.22)"/>
+      <circle cx="174" cy="42" r="5" fill="rgba(255,255,255,0.13)"/>
+      <circle cx="190" cy="42" r="5" fill="rgba(255,255,255,0.08)"/>
+      <line x1="144" y1="62" x2="576" y2="62" stroke="rgba(255,255,255,0.08)" strokeWidth="1"/>
+      <rect x="144" y="64" width="432" height="148" rx="4" fill="rgba(4,10,28,0.97)"/>
 
-      {/* Card 1: 課題を整理 (blue) */}
-      <rect x="169" y="78" width="118" height="284" rx="10" stroke="rgba(96,165,250,0.8)" strokeWidth="2" fill="rgba(96,165,250,0.07)"/>
-      <circle cx="228" cy="174" r="36" stroke="rgba(96,165,250,0.4)" strokeWidth="1.5" fill="rgba(96,165,250,0.13)"/>
-      <circle cx="225" cy="171" r="13" stroke="rgba(96,165,250,1)" strokeWidth="2.2" fill="none"/>
-      <line x1="235.5" y1="181.5" x2="245" y2="191" stroke="rgba(96,165,250,1)" strokeWidth="2.8" strokeLinecap="round"/>
-      <text x="228" y="284" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="17" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
+      {/* Card 1: 課題を整理 — square (blue) */}
+      <rect x="169" y="72" width="118" height="118" rx="10" stroke="rgba(96,165,250,0.8)" strokeWidth="2" fill="rgba(96,165,250,0.07)"/>
+      <circle cx="228" cy="110" r="26" stroke="rgba(96,165,250,0.4)" strokeWidth="1.5" fill="rgba(96,165,250,0.13)"/>
+      <circle cx="225" cy="107" r="10" stroke="rgba(96,165,250,1)" strokeWidth="2" fill="none"/>
+      <line x1="233.5" y1="115.5" x2="241" y2="123" stroke="rgba(96,165,250,1)" strokeWidth="2.5" strokeLinecap="round"/>
+      <text x="228" y="163" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
 
       {/* Arrow 1→2 */}
-      <line x1="289" y1="170" x2="299" y2="170" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
-      <path d="M295 165 L303 170 L295 175" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <line x1="289" y1="110" x2="299" y2="110" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
+      <path d="M295 105 L303 110 L295 115" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
-      {/* Card 2: 進め方を設計 (green) */}
-      <rect x="301" y="78" width="118" height="284" rx="10" stroke="rgba(52,211,153,0.8)" strokeWidth="2" fill="rgba(52,211,153,0.07)"/>
-      <circle cx="360" cy="174" r="36" stroke="rgba(52,211,153,0.4)" strokeWidth="1.5" fill="rgba(52,211,153,0.13)"/>
-      <rect x="349" y="158" width="22" height="29" rx="3" stroke="rgba(52,211,153,1)" strokeWidth="2" fill="none"/>
-      <rect x="353" y="154" width="14" height="7" rx="2" stroke="rgba(52,211,153,0.8)" strokeWidth="1.6" fill="rgba(52,211,153,0.3)"/>
-      <line x1="354" y1="167" x2="367" y2="167" stroke="rgba(52,211,153,0.8)" strokeWidth="1.5" strokeLinecap="round"/>
-      <line x1="354" y1="173" x2="367" y2="173" stroke="rgba(52,211,153,0.7)" strokeWidth="1.5" strokeLinecap="round"/>
-      <line x1="354" y1="179" x2="362" y2="179" stroke="rgba(52,211,153,0.5)" strokeWidth="1.5" strokeLinecap="round"/>
-      <text x="360" y="284" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="17" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
+      {/* Card 2: 進め方を設計 — square (green) */}
+      <rect x="301" y="72" width="118" height="118" rx="10" stroke="rgba(52,211,153,0.8)" strokeWidth="2" fill="rgba(52,211,153,0.07)"/>
+      <circle cx="360" cy="110" r="26" stroke="rgba(52,211,153,0.4)" strokeWidth="1.5" fill="rgba(52,211,153,0.13)"/>
+      <rect x="351" y="99" width="18" height="23" rx="2.5" stroke="rgba(52,211,153,1)" strokeWidth="1.8" fill="none"/>
+      <rect x="354" y="96" width="12" height="6" rx="1.5" stroke="rgba(52,211,153,0.8)" strokeWidth="1.5" fill="rgba(52,211,153,0.3)"/>
+      <line x1="354" y1="107" x2="365" y2="107" stroke="rgba(52,211,153,0.8)" strokeWidth="1.4" strokeLinecap="round"/>
+      <line x1="354" y1="112" x2="365" y2="112" stroke="rgba(52,211,153,0.7)" strokeWidth="1.4" strokeLinecap="round"/>
+      <line x1="354" y1="117" x2="361" y2="117" stroke="rgba(52,211,153,0.5)" strokeWidth="1.4" strokeLinecap="round"/>
+      <text x="360" y="163" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
 
       {/* Arrow 2→3 */}
-      <line x1="421" y1="170" x2="431" y2="170" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
-      <path d="M427 165 L435 170 L427 175" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <line x1="421" y1="110" x2="431" y2="110" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
+      <path d="M427 105 L435 110 L427 115" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
-      {/* Card 3: 実行を伴走 (gold) */}
-      <rect x="433" y="78" width="118" height="284" rx="10" stroke="rgba(212,170,74,0.8)" strokeWidth="2" fill="rgba(212,170,74,0.07)"/>
-      <circle cx="492" cy="174" r="36" stroke="rgba(212,170,74,0.4)" strokeWidth="1.5" fill="rgba(212,170,74,0.13)"/>
-      <circle cx="492" cy="162" r="9" stroke="rgba(212,170,74,1)" strokeWidth="2" fill="none"/>
-      <path d="M480 189 C480 181 486 177 492 177 C498 177 504 181 504 189" stroke="rgba(212,170,74,1)" strokeWidth="2" strokeLinecap="round" fill="none"/>
-      <text x="492" y="284" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="17" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
+      {/* Card 3: 実行を伴走 — square (gold) */}
+      <rect x="433" y="72" width="118" height="118" rx="10" stroke="rgba(212,170,74,0.8)" strokeWidth="2" fill="rgba(212,170,74,0.07)"/>
+      <circle cx="492" cy="110" r="26" stroke="rgba(212,170,74,0.4)" strokeWidth="1.5" fill="rgba(212,170,74,0.13)"/>
+      <circle cx="492" cy="104" r="7.5" stroke="rgba(212,170,74,1)" strokeWidth="1.8" fill="none"/>
+      <path d="M481 122 C481 115 486 112 492 112 C498 112 503 115 503 122" stroke="rgba(212,170,74,1)" strokeWidth="1.8" strokeLinecap="round" fill="none"/>
+      <text x="492" y="163" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
 
       {/* Laptop base */}
-      <path d="M82 384 Q82 396 96 396 L624 396 Q638 396 638 384 L588 384 L132 384 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
-      <rect x="300" y="382" width="120" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
+      <path d="M84 222 Q84 234 98 234 L622 234 Q636 234 636 222 L588 222 L132 222 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
+      <rect x="298" y="220" width="124" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
 
       {/* Circle TL: Web制作 (blue) */}
-      <circle cx="65" cy="162" r="55" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
-      <circle cx="65" cy="162" r="42" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
-      <rect x="46" y="144" width="38" height="28" rx="5" stroke="rgba(96,165,250,0.9)" strokeWidth="1.8" fill="none"/>
-      <line x1="46" y1="153" x2="84" y2="153" stroke="rgba(96,165,250,0.55)" strokeWidth="1.4"/>
-      <circle cx="52" cy="149" r="2.5" fill="rgba(96,165,250,0.7)"/>
-      <circle cx="59" cy="149" r="2.5" fill="rgba(96,165,250,0.5)"/>
-      <text x="65" y="188" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="15" fontFamily="system-ui,sans-serif" fontWeight="700">Web制作</text>
-      <line x1="119" y1="150" x2="132" y2="64" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="65" cy="90" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
+      <circle cx="65" cy="90" r="39" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
+      <rect x="47" y="74" width="36" height="24" rx="4.5" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" fill="none"/>
+      <line x1="47" y1="81" x2="83" y2="81" stroke="rgba(96,165,250,0.5)" strokeWidth="1.3"/>
+      <circle cx="53" cy="78" r="2.2" fill="rgba(96,165,250,0.7)"/>
+      <circle cx="59.5" cy="78" r="2.2" fill="rgba(96,165,250,0.5)"/>
+      <text x="65" y="109" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">Web制作</text>
+      <line x1="116" y1="80" x2="131" y2="40" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BL: 外注相談 (blue) */}
-      <circle cx="65" cy="318" r="55" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
-      <circle cx="65" cy="318" r="42" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
-      <path d="M44 310 L52 303 L65 308 L78 303 L86 310" stroke="rgba(96,165,250,0.9)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <path d="M45 317 L65 326 L85 317" stroke="rgba(96,165,250,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <text x="65" y="344" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="15" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
-      <line x1="119" y1="314" x2="132" y2="378" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="65" cy="178" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
+      <circle cx="65" cy="178" r="39" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
+      <path d="M45 170 L53 163 L65 168 L77 163 L85 170" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <path d="M46 176 L65 184 L84 176" stroke="rgba(96,165,250,0.5)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <text x="65" y="197" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
+      <line x1="116" y1="172" x2="131" y2="218" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle TR: IT活用 (teal) */}
-      <circle cx="655" cy="162" r="55" stroke="rgba(20,184,166,0.2)" strokeWidth="1.5" fill="rgba(20,184,166,0.03)"/>
-      <circle cx="655" cy="162" r="42" stroke="rgba(20,184,166,0.6)" strokeWidth="1.5" fill="rgba(20,184,166,0.08)"/>
-      <rect x="636" y="150" width="8" height="22" rx="2" fill="rgba(20,184,166,0.5)"/>
-      <rect x="648" y="143" width="8" height="29" rx="2" fill="rgba(20,184,166,0.65)"/>
-      <rect x="660" y="136" width="8" height="36" rx="2" fill="rgba(20,184,166,0.8)"/>
-      <line x1="634" y1="173" x2="670" y2="173" stroke="rgba(20,184,166,0.35)" strokeWidth="1.2"/>
-      <path d="M639 168 L646 159 L652 162 L660 152" stroke="rgba(212,170,74,0.9)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <circle cx="660" cy="152" r="3" fill="rgba(212,170,74,0.9)"/>
-      <text x="655" y="188" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="15" fontFamily="system-ui,sans-serif" fontWeight="700">IT活用</text>
-      <line x1="601" y1="150" x2="588" y2="64" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="655" cy="90" r="52" stroke="rgba(20,184,166,0.2)" strokeWidth="1.5" fill="rgba(20,184,166,0.03)"/>
+      <circle cx="655" cy="90" r="39" stroke="rgba(20,184,166,0.6)" strokeWidth="1.5" fill="rgba(20,184,166,0.08)"/>
+      <rect x="638" y="76" width="7" height="18" rx="2" fill="rgba(20,184,166,0.5)"/>
+      <rect x="648" y="70" width="7" height="24" rx="2" fill="rgba(20,184,166,0.65)"/>
+      <rect x="658" y="63" width="7" height="31" rx="2" fill="rgba(20,184,166,0.8)"/>
+      <line x1="636" y1="95" x2="667" y2="95" stroke="rgba(20,184,166,0.35)" strokeWidth="1.2"/>
+      <path d="M640 91 L647 82 L653 85 L660 75" stroke="rgba(212,170,74,0.9)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <circle cx="660" cy="75" r="2.5" fill="rgba(212,170,74,0.9)"/>
+      <text x="655" y="109" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">IT活用</text>
+      <line x1="604" y1="80" x2="589" y2="40" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BR: AI活用 (violet) */}
-      <circle cx="655" cy="318" r="55" stroke="rgba(139,92,246,0.2)" strokeWidth="1.5" fill="rgba(139,92,246,0.03)"/>
-      <circle cx="655" cy="318" r="42" stroke="rgba(139,92,246,0.6)" strokeWidth="1.5" fill="rgba(139,92,246,0.08)"/>
-      <rect x="637" y="298" width="36" height="36" rx="5" stroke="rgba(139,92,246,0.85)" strokeWidth="1.8" fill="none"/>
-      <rect x="643" y="304" width="24" height="24" rx="3" stroke="rgba(139,92,246,0.35)" strokeWidth="1.2" fill="rgba(139,92,246,0.1)"/>
-      <line x1="644" y1="298" x2="644" y2="294" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="652" y1="298" x2="652" y2="294" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="660" y1="298" x2="660" y2="294" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="668" y1="298" x2="668" y2="294" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="644" y1="334" x2="644" y2="338" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="652" y1="334" x2="652" y2="338" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="660" y1="334" x2="660" y2="338" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="668" y1="334" x2="668" y2="338" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="637" y1="307" x2="633" y2="307" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="637" y1="316" x2="633" y2="316" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="637" y1="325" x2="633" y2="325" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="673" y1="307" x2="677" y2="307" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="673" y1="316" x2="677" y2="316" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <line x1="673" y1="325" x2="677" y2="325" stroke="rgba(139,92,246,0.65)" strokeWidth="1.4"/>
-      <text x="655" y="320" textAnchor="middle" fill="rgba(139,92,246,0.95)" fontSize="11" fontFamily="system-ui,sans-serif" fontWeight="800">AI</text>
-      <text x="655" y="348" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="15" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
-      <line x1="601" y1="314" x2="588" y2="378" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="655" cy="178" r="52" stroke="rgba(139,92,246,0.2)" strokeWidth="1.5" fill="rgba(139,92,246,0.03)"/>
+      <circle cx="655" cy="178" r="39" stroke="rgba(139,92,246,0.6)" strokeWidth="1.5" fill="rgba(139,92,246,0.08)"/>
+      <rect x="641" y="161" width="28" height="28" rx="4" stroke="rgba(139,92,246,0.85)" strokeWidth="1.7" fill="none"/>
+      <rect x="646" y="166" width="18" height="18" rx="2.5" stroke="rgba(139,92,246,0.35)" strokeWidth="1.2" fill="rgba(139,92,246,0.1)"/>
+      <line x1="646" y1="161" x2="646" y2="157" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="653" y1="161" x2="653" y2="157" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="660" y1="161" x2="660" y2="157" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="666" y1="161" x2="666" y2="157" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="646" y1="189" x2="646" y2="193" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="653" y1="189" x2="653" y2="193" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="660" y1="189" x2="660" y2="193" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="666" y1="189" x2="666" y2="193" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="169" x2="637" y2="169" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="178" x2="637" y2="178" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="182" x2="637" y2="182" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="169" x2="673" y2="169" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="178" x2="673" y2="178" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="182" x2="673" y2="182" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <text x="655" y="180" textAnchor="middle" fill="rgba(139,92,246,0.95)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="800">AI</text>
+      <text x="655" y="199" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
+      <line x1="604" y1="172" x2="589" y2="218" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
     </svg>
   )
 }
