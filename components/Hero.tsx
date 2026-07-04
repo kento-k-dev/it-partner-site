@@ -97,19 +97,19 @@ function ArrowRight() {
 function HeroIllustration() {
   return (
     <svg
-      viewBox="0 0 720 300"
+      viewBox="0 0 720 360"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-full max-w-lg"
       aria-hidden="true"
     >
-      {/* Laptop body — 456×240 ≈ 1.9:1, closer to typical 16:9 */}
-      <rect x="132" y="24" width="456" height="240" rx="16" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" fill="rgba(8,18,42,0.95)"/>
+      {/* Laptop body — 456×290 ≈ 1.57:1, close to 16:10 MacBook ratio */}
+      <rect x="132" y="24" width="456" height="290" rx="16" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" fill="rgba(8,18,42,0.95)"/>
       <circle cx="158" cy="42" r="5" fill="rgba(255,255,255,0.22)"/>
       <circle cx="174" cy="42" r="5" fill="rgba(255,255,255,0.13)"/>
       <circle cx="190" cy="42" r="5" fill="rgba(255,255,255,0.08)"/>
       <line x1="144" y1="62" x2="576" y2="62" stroke="rgba(255,255,255,0.08)" strokeWidth="1"/>
-      <rect x="144" y="64" width="432" height="188" rx="4" fill="rgba(4,10,28,0.97)"/>
+      <rect x="144" y="64" width="432" height="238" rx="4" fill="rgba(4,10,28,0.97)"/>
 
       {/* Card 1: 課題を整理 — square (blue) */}
       <rect x="169" y="90" width="118" height="118" rx="10" stroke="rgba(96,165,250,0.8)" strokeWidth="2" fill="rgba(96,165,250,0.07)"/>
@@ -144,8 +144,8 @@ function HeroIllustration() {
       <text x="492" y="181" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
 
       {/* Laptop base */}
-      <path d="M84 264 Q84 276 98 276 L622 276 Q636 276 636 264 L588 264 L132 264 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
-      <rect x="298" y="262" width="124" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
+      <path d="M84 314 Q84 326 98 326 L622 326 Q636 326 636 314 L588 314 L132 314 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
+      <rect x="298" y="312" width="124" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
 
       {/* Circle TL: Web制作 (blue) */}
       <circle cx="65" cy="90" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
@@ -158,12 +158,12 @@ function HeroIllustration() {
       <line x1="116" y1="80" x2="131" y2="40" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BL: 外注相談 (blue) */}
-      <circle cx="65" cy="210" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
-      <circle cx="65" cy="210" r="39" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
-      <path d="M45 202 L53 195 L65 200 L77 195 L85 202" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <path d="M46 208 L65 216 L84 208" stroke="rgba(96,165,250,0.5)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <text x="65" y="229" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
-      <line x1="116" y1="202" x2="131" y2="262" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="65" cy="240" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
+      <circle cx="65" cy="240" r="39" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
+      <path d="M45 232 L53 225 L65 230 L77 225 L85 232" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <path d="M46 238 L65 246 L84 238" stroke="rgba(96,165,250,0.5)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <text x="65" y="259" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
+      <line x1="116" y1="232" x2="131" y2="312" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle TR: IT活用 (teal) */}
       <circle cx="655" cy="90" r="52" stroke="rgba(20,184,166,0.2)" strokeWidth="1.5" fill="rgba(20,184,166,0.03)"/>
@@ -178,27 +178,27 @@ function HeroIllustration() {
       <line x1="604" y1="80" x2="589" y2="40" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
       {/* Circle BR: AI活用 (violet) */}
-      <circle cx="655" cy="210" r="52" stroke="rgba(139,92,246,0.2)" strokeWidth="1.5" fill="rgba(139,92,246,0.03)"/>
-      <circle cx="655" cy="210" r="39" stroke="rgba(139,92,246,0.6)" strokeWidth="1.5" fill="rgba(139,92,246,0.08)"/>
-      <rect x="641" y="193" width="28" height="28" rx="4" stroke="rgba(139,92,246,0.85)" strokeWidth="1.7" fill="none"/>
-      <rect x="646" y="198" width="18" height="18" rx="2.5" stroke="rgba(139,92,246,0.35)" strokeWidth="1.2" fill="rgba(139,92,246,0.1)"/>
-      <line x1="646" y1="193" x2="646" y2="189" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="653" y1="193" x2="653" y2="189" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="660" y1="193" x2="660" y2="189" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="666" y1="193" x2="666" y2="189" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="646" y1="221" x2="646" y2="225" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="653" y1="221" x2="653" y2="225" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="660" y1="221" x2="660" y2="225" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="666" y1="221" x2="666" y2="225" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="641" y1="201" x2="637" y2="201" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="641" y1="210" x2="637" y2="210" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="641" y1="214" x2="637" y2="214" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="669" y1="201" x2="673" y2="201" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="669" y1="210" x2="673" y2="210" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <line x1="669" y1="214" x2="673" y2="214" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
-      <text x="655" y="212" textAnchor="middle" fill="rgba(139,92,246,0.95)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="800">AI</text>
-      <text x="655" y="231" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
-      <line x1="604" y1="202" x2="589" y2="262" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
+      <circle cx="655" cy="240" r="52" stroke="rgba(139,92,246,0.2)" strokeWidth="1.5" fill="rgba(139,92,246,0.03)"/>
+      <circle cx="655" cy="240" r="39" stroke="rgba(139,92,246,0.6)" strokeWidth="1.5" fill="rgba(139,92,246,0.08)"/>
+      <rect x="641" y="223" width="28" height="28" rx="4" stroke="rgba(139,92,246,0.85)" strokeWidth="1.7" fill="none"/>
+      <rect x="646" y="228" width="18" height="18" rx="2.5" stroke="rgba(139,92,246,0.35)" strokeWidth="1.2" fill="rgba(139,92,246,0.1)"/>
+      <line x1="646" y1="223" x2="646" y2="219" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="653" y1="223" x2="653" y2="219" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="660" y1="223" x2="660" y2="219" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="666" y1="223" x2="666" y2="219" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="646" y1="251" x2="646" y2="255" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="653" y1="251" x2="653" y2="255" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="660" y1="251" x2="660" y2="255" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="666" y1="251" x2="666" y2="255" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="231" x2="637" y2="231" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="240" x2="637" y2="240" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="641" y1="244" x2="637" y2="244" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="231" x2="673" y2="231" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="240" x2="673" y2="240" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <line x1="669" y1="244" x2="673" y2="244" stroke="rgba(139,92,246,0.6)" strokeWidth="1.3"/>
+      <text x="655" y="242" textAnchor="middle" fill="rgba(139,92,246,0.95)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="800">AI</text>
+      <text x="655" y="261" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
+      <line x1="604" y1="232" x2="589" y2="312" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
     </svg>
   )
 }
