@@ -43,8 +43,8 @@ const SERVICES: Service[] = [
     highlight: true,
   },
   {
-    name: 'Webサイト・LPの企画・制作支援',
-    tag: '制作支援',
+    name: 'Webサイト・LPの企画から制作まで',
+    tag: '企画・制作',
     tagColor: 'bg-teal-50 text-teal-700',
     summary:
       '課題や目的の整理から、ページ構成、掲載内容、必要に応じた制作・公開支援まで一貫して対応します。紹介用LP、サービスサイト、小規模な事業紹介ページなど、事業に合った形で形にしたい方に向いています。',
