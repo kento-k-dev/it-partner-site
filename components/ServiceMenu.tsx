@@ -2,11 +2,12 @@ type Service = {
   name: string
   tag: string
   tagColor: string
+  subLabel?: string
   summary: string
-  note?: string
   fits: string[]
   price: string
   priceUnit?: string
+  note?: string
   highlight?: boolean
 }
 
@@ -15,8 +16,7 @@ const SERVICES: Service[] = [
     name: 'スポット相談',
     tag: '単発',
     tagColor: 'bg-blue-50 text-blue-600',
-    summary:
-      '一度話しながら整理したいときの入口として使えます。方向性の確認、制作前の相談、見積もりの妥当性確認など、単発でご相談いただけます。',
+    summary: '一度話しながら状況を整理し、判断材料を得たいときの入口です。',
     fits: [
       'まず方向性を整理したい',
       '制作会社に依頼する前に相談したい',
@@ -30,9 +30,8 @@ const SERVICES: Service[] = [
     name: 'Web・IT整理サポート',
     tag: '整理・完結',
     tagColor: 'bg-navy-50 text-navy-700',
-    summary:
-      '方向性・優先順位・進め方を明確にしたいときに使えます。課題や目的を整理し、何から着手すべきかを具体化します。',
-    note: '必要に応じて、方向性・優先順位・構成案などを簡易メモとして整理し、一度区切りのある形でご提供します。',
+    subLabel: '短期で整理したい方向け',
+    summary: '方向性・優先順位・進め方を短期間で整理します。',
     fits: [
       '自社に必要なIT活用を整理したい',
       '何から着手すべきか優先順位を決めたい',
@@ -40,15 +39,14 @@ const SERVICES: Service[] = [
       '外注前に要件や方向性を整理したい',
     ],
     price: '33,000円〜',
+    note: '必要に応じて、方向性・優先順位・構成案などを簡易メモとして整理し、一度区切りのある形でご提供します。',
     highlight: true,
   },
   {
     name: 'Webサイト・LPの企画から制作まで',
     tag: '企画・制作',
     tagColor: 'bg-teal-50 text-teal-700',
-    summary:
-      '必要なページを形にしたいときに。ページ構成・掲載内容の整理から、必要に応じた制作・公開支援まで一貫して対応します。',
-    note: '内容、ページ数、構成整理、文章作成支援、公開後の改善対応の有無に応じてお見積もりします。まずは課題や方向性の整理から入り、必要に応じて制作まで一貫して支援します。',
+    summary: '必要なページを企画から制作まで一貫して形にします。',
     fits: [
       '紹介や営業で使えるページを作りたい',
       '構成や掲載内容から一緒に考えたい',
@@ -56,14 +54,14 @@ const SERVICES: Service[] = [
       '公開後の改善も見据えて進めたい',
     ],
     price: '個別見積もり',
+    note: '内容、ページ数、構成整理、文章作成支援、公開後の改善対応の有無に応じてお見積もりします。',
   },
   {
     name: '継続ITパートナー',
     tag: '月額・継続',
     tagColor: 'bg-slate-100 text-slate-600',
-    summary:
-      '単発では整理しきれないテーマを継続的に相談したいときに。毎月の相談窓口として、改善や判断を一緒に進めます。',
-    note: '制作後の改善、外注先とのやり取り、業務整理、AI活用の見直しなども含め、都度相談しながら進めていける形です。',
+    subLabel: '継続的に相談したい方向け',
+    summary: '毎月の相談窓口として、改善や判断を一緒に進めます。',
     fits: [
       '社内にIT担当がいない',
       '継続的に相談できる相手がほしい',
@@ -72,6 +70,7 @@ const SERVICES: Service[] = [
       '制作後の運用や改善も一緒に考えたい',
     ],
     price: '月額55,000円〜',
+    note: '制作後の改善、外注先とのやり取り、業務整理、AI活用の見直しなども含め、都度相談しながら進めていける形です。',
   },
 ]
 
@@ -111,8 +110,8 @@ export default function ServiceMenu() {
                 </div>
               )}
 
-              {/* Tag */}
-              <div className="mb-3">
+              {/* 1. Tag + subLabel */}
+              <div className="flex items-center gap-2 mb-3 flex-wrap">
                 <span
                   className={`text-xs font-semibold px-2.5 py-1 rounded-full ${
                     s.highlight ? 'bg-white/10 text-blue-200' : s.tagColor
@@ -120,33 +119,27 @@ export default function ServiceMenu() {
                 >
                   {s.tag}
                 </span>
+                {s.subLabel && (
+                  <span className={`text-xs ${s.highlight ? 'text-blue-300/60' : 'text-slate-400'}`}>
+                    {s.subLabel}
+                  </span>
+                )}
               </div>
 
-              {/* Title */}
+              {/* 2. Title */}
               <h3 className={`font-bold text-lg mb-2 ${s.highlight ? 'text-white' : 'text-navy-900'}`}>
                 {s.name}
               </h3>
 
-              {/* Summary */}
+              {/* 3. Summary — one-liner */}
               <p className={`text-sm leading-relaxed mb-4 ${s.highlight ? 'text-blue-200/80' : 'text-slate-600'}`}>
                 {s.summary}
               </p>
 
-              {/* Note block */}
-              {s.note && (
-                <p
-                  className={`text-xs leading-relaxed mb-4 px-3 py-2.5 rounded-lg ${
-                    s.highlight ? 'bg-white/8 text-blue-200/65' : 'bg-slate-50 text-slate-500'
-                  }`}
-                >
-                  {s.note}
-                </p>
-              )}
-
-              {/* Fits */}
+              {/* 4. Fits */}
               <div className="flex-1">
                 <p className={`text-xs font-semibold mb-2 ${s.highlight ? 'text-blue-300/65' : 'text-slate-400'}`}>
-                  向いている方
+                  向いているご相談
                 </p>
                 <ul className="space-y-1.5">
                   {s.fits.map((fit) => (
@@ -178,7 +171,7 @@ export default function ServiceMenu() {
                 </ul>
               </div>
 
-              {/* Price */}
+              {/* 5. Price */}
               <div className={`mt-5 pt-4 border-t flex items-baseline gap-2 ${s.highlight ? 'border-white/10' : 'border-slate-100'}`}>
                 <span className={`text-xl font-bold tracking-tight ${s.highlight ? 'text-gold-400' : 'text-navy-800'}`}>
                   {s.price}
@@ -189,6 +182,17 @@ export default function ServiceMenu() {
                   </span>
                 )}
               </div>
+
+              {/* 6. Note — after price */}
+              {s.note && (
+                <p
+                  className={`text-xs leading-relaxed mt-3 px-3 py-2.5 rounded-lg ${
+                    s.highlight ? 'bg-white/8 text-blue-200/65' : 'bg-slate-50 text-slate-500'
+                  }`}
+                >
+                  {s.note}
+                </p>
+              )}
             </div>
           ))}
         </div>

@@ -53,7 +53,7 @@ export default function ConsultationExamples() {
             こんなご相談に対応しています
           </h2>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
-            判断しやすい状態をつくることで、実際に動き出した場面の例です。実名・社名は使用していません。
+            実際にいただいたご相談の例です。似た状況があれば、お気軽にご相談ください。
           </p>
         </div>
 

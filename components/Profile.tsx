@@ -53,6 +53,9 @@ export default function Profile() {
                 現在はこれまでの経験を活かし、中小企業・個人事業主・フリーランスの方に向けて、
                 IT・Web・AI活用の相談・整理・実行支援を行っています。
               </p>
+              <p className="text-blue-200/60 text-sm">
+                専門用語をできるだけ使わず、現状や目的を整理しながら進めることを大切にしています。
+              </p>
             </div>
 
             {/* Timeline */}

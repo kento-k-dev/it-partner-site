@@ -78,7 +78,7 @@ export default function ConsultationTopics() {
           <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Services</p>
           <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">こういう局面でご相談いただいています</h2>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
-            ITや制作の機能を提供するというより、今まさに判断が必要な局面を整理するための支援です。
+            よくご相談いただくテーマをまとめています。どれかひとつでも当てはまれば、お気軽にご相談ください。
           </p>
         </div>
 

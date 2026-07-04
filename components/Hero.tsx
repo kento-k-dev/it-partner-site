@@ -31,11 +31,11 @@ export default function Hero() {
 
             {/* 3. Body */}
             <div className="text-sm sm:text-base text-blue-100/75 leading-relaxed max-w-md space-y-3">
-              <ul className="space-y-2">
+              <ul className="space-y-1.5">
                 {[
-                  '新しくWebサイトやLPを作りたい',
+                  'Webサイト・LPを新しく作りたい',
                   '制作会社への依頼内容を整理したい',
-                  'AIを使いたいが、どこから始めるべきかわからない',
+                  'AIを何から使い始めるべきか知りたい',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
                     <span className="flex-shrink-0 mt-[9px] w-1.5 h-1.5 rounded-full bg-blue-300/50" />
@@ -43,7 +43,7 @@ export default function Hero() {
                   </li>
                 ))}
               </ul>
-              <p>そんなときに、必要な判断材料を整理し、進め方を明確にします。</p>
+              <p>そんな局面を、一緒に整理します。</p>
             </div>
 
             {/* 4. CTAs */}
