@@ -120,9 +120,6 @@ function HeroIllustration() {
       <circle cx="173" cy="100" r="7.5" stroke="rgba(96,165,250,0.9)" strokeWidth="1.5" fill="none"/>
       <line x1="179" y1="106" x2="185" y2="112" stroke="rgba(96,165,250,0.9)" strokeWidth="1.5" strokeLinecap="round"/>
       <text x="175" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
-      <text x="175" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">現状や目的を整理し、</text>
-      <text x="175" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">本質的な課題を</text>
-      <text x="175" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">明確にします。</text>
 
       {/* Arrow 1→2 */}
       <line x1="212" y1="132" x2="222" y2="132" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
@@ -137,9 +134,6 @@ function HeroIllustration() {
       <line x1="257" y1="101" x2="265" y2="101" stroke="rgba(52,211,153,0.6)" strokeWidth="1.1" strokeLinecap="round"/>
       <line x1="257" y1="105" x2="263" y2="105" stroke="rgba(52,211,153,0.5)" strokeWidth="1.1" strokeLinecap="round"/>
       <text x="261" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
-      <text x="261" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">優先順位や進め方を</text>
-      <text x="261" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">設計し、判断しやすい</text>
-      <text x="261" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">計画をつくります。</text>
 
       {/* Arrow 2→3 */}
       <line x1="298" y1="132" x2="308" y2="132" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
@@ -151,9 +145,6 @@ function HeroIllustration() {
       <circle cx="347" cy="96" r="6" stroke="rgba(212,170,74,0.9)" strokeWidth="1.4" fill="none"/>
       <path d="M336 112 C336 106 341 103 347 103 C353 103 358 106 358 112" stroke="rgba(212,170,74,0.9)" strokeWidth="1.4" strokeLinecap="round" fill="none"/>
       <text x="347" y="133" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="9" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
-      <text x="347" y="147" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">実行段階も伴走しながら、</text>
-      <text x="347" y="157" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">着実な前進を</text>
-      <text x="347" y="167" textAnchor="middle" fill="rgba(255,255,255,0.45)" fontSize="6.5" fontFamily="system-ui,sans-serif">支援します。</text>
 
       {/* Laptop base */}
       <path d="M82 242 Q82 254 96 254 L424 254 Q438 254 438 242 L392 242 L128 242 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
@@ -167,8 +158,6 @@ function HeroIllustration() {
       <circle cx="43" cy="98" r="1.5" fill="rgba(255,255,255,0.4)"/>
       <circle cx="48" cy="98" r="1.5" fill="rgba(255,255,255,0.28)"/>
       <text x="52" y="125" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">Web制作</text>
-      <text x="52" y="135" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">サイトやLP制作の</text>
-      <text x="52" y="144" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">進め方を整理</text>
       <line x1="97" y1="102" x2="127" y2="76" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
       {/* Circle BL: 外注相談 */}
@@ -177,8 +166,6 @@ function HeroIllustration() {
       <path d="M38 294 L44 289 L52 293 L60 289 L66 294" stroke="rgba(255,255,255,0.55)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <path d="M39 298 L52 305 L65 298" stroke="rgba(255,255,255,0.3)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <text x="52" y="317" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
-      <text x="52" y="327" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">制作会社選定や</text>
-      <text x="52" y="336" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">見積もりの整理を支援</text>
       <line x1="97" y1="283" x2="127" y2="240" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
       {/* Circle TR: IT活用 */}
@@ -191,8 +178,6 @@ function HeroIllustration() {
       <path d="M457 109 L462 104 L467 107 L472 99" stroke="rgba(212,170,74,0.85)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
       <circle cx="472" cy="99" r="2" fill="rgba(212,170,74,0.85)"/>
       <text x="468" y="125" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">IT活用</text>
-      <text x="468" y="135" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">業務や事業に合う</text>
-      <text x="468" y="144" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">IT活用を検討</text>
       <line x1="423" y1="102" x2="393" y2="76" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
 
       {/* Circle BR: AI活用 */}
@@ -216,8 +201,6 @@ function HeroIllustration() {
       <line x1="481" y1="300" x2="484" y2="300" stroke="rgba(255,255,255,0.38)" strokeWidth="1"/>
       <text x="468" y="300" textAnchor="middle" fill="rgba(255,255,255,0.65)" fontSize="7.5" fontFamily="system-ui,sans-serif" fontWeight="700">AI</text>
       <text x="468" y="319" textAnchor="middle" fill="rgba(255,255,255,0.88)" fontSize="9.5" fontFamily="system-ui,sans-serif" fontWeight="700">AI活用</text>
-      <text x="468" y="329" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">AIの活用テーマや</text>
-      <text x="468" y="338" textAnchor="middle" fill="rgba(255,255,255,0.42)" fontSize="6.5" fontFamily="system-ui,sans-serif">導入ステップを整理</text>
       <line x1="423" y1="283" x2="393" y2="240" stroke="rgba(255,255,255,0.18)" strokeWidth="1" strokeDasharray="3,3"/>
     </svg>
   )
