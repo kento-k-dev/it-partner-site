@@ -23,7 +23,7 @@ export default function Hero() {
             </span>
 
             {/* 2. Main headline */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug tracking-tight max-w-lg">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug tracking-tight max-w-lg">
               Web制作やIT活用の進め方を、
               <br className="hidden sm:inline" />
               事業に合わせて整理します。
