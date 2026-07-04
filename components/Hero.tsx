@@ -15,26 +15,26 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
           {/* Text */}
-          <div className="text-white space-y-7">
-            <div className="space-y-5">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-                事業の
-                <br />
-                ITパートナー
-              </h1>
-            </div>
+          <div className="text-white space-y-6">
 
-            <p className="text-lg sm:text-xl text-blue-100/90 leading-relaxed max-w-lg">
-              Web制作、AI活用、アプリ企画、外注相談まで。
+            {/* 1. Label */}
+            <span className="inline-flex items-center text-xs font-semibold tracking-[0.14em] text-blue-300/75 border border-blue-400/25 rounded-full px-3.5 py-1.5">
+              事業のITパートナー
+            </span>
+
+            {/* 2. Main headline */}
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug tracking-tight max-w-lg">
+              Web制作やIT活用を、
               <br className="hidden sm:inline" />
-              中小企業・個人事業主の「何から始めればいいかわからない」を、整理して実行できる形にします。
+              事業に合う形に整理します。
+            </h1>
+
+            {/* 3. Body */}
+            <p className="text-sm sm:text-base text-blue-100/75 leading-relaxed max-w-md">
+              総合コンサル・大手SIerでの開発・プロジェクトマネジメント経験をもとに、Web制作、AI活用、外注相談などを、事業に必要な形でわかりやすく整理し、実行まで伴走します。
             </p>
 
-            <p className="text-sm text-blue-200/65 leading-relaxed max-w-lg pl-4 border-l-2 border-blue-400/40">
-              総合コンサル・大手SIerでの開発・プロジェクトマネジメント経験をもとに、
-              事業に必要なIT活用を、わかりやすく現実的に整理します。
-            </p>
-
+            {/* 4. CTAs */}
             <div className="flex flex-wrap gap-3 sm:gap-4 pt-2">
               <a
                 href="#contact"
