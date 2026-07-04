@@ -19,6 +19,7 @@ const CONTACT_METHODS = [
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
+  const [referral, setReferral] = useState('')
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -121,15 +122,40 @@ export default function Contact() {
             <Field label="紹介者の有無" id="referral">
               <div className="flex gap-5 pt-1">
                 <label className="flex items-center gap-2 cursor-pointer">
-                  <input type="radio" name="referral" value="yes" className="w-4 h-4 accent-white" />
+                  <input
+                    type="radio"
+                    name="referral"
+                    value="yes"
+                    className="w-4 h-4 accent-white"
+                    onChange={() => setReferral('yes')}
+                  />
                   <span className="text-white/80 text-sm">紹介あり</span>
                 </label>
                 <label className="flex items-center gap-2 cursor-pointer">
-                  <input type="radio" name="referral" value="no" className="w-4 h-4 accent-white" />
+                  <input
+                    type="radio"
+                    name="referral"
+                    value="no"
+                    className="w-4 h-4 accent-white"
+                    onChange={() => setReferral('no')}
+                  />
                   <span className="text-white/80 text-sm">紹介なし（新規）</span>
                 </label>
               </div>
             </Field>
+
+            {referral === 'yes' && (
+              <Field label="紹介者名" id="referralName" required>
+                <input
+                  id="referralName"
+                  name="referralName"
+                  type="text"
+                  required
+                  placeholder="例：山田 太郎さん"
+                  className={inputCls}
+                />
+              </Field>
+            )}
 
             <div className="pt-2">
               <button
