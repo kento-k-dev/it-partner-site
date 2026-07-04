@@ -55,7 +55,7 @@ export default function ValueProposition() {
           <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 leading-snug">
             作る前に、まず整理する。
             <br />
-            <span className="text-navy-700">事業に合ったIT活用を一緒に考えます。</span>
+            <span className="text-navy-700">事業に合ったIT活用を、実行できる形に整えます。</span>
           </h2>
         </div>
 

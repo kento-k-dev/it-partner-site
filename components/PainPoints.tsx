@@ -40,7 +40,7 @@ export default function PainPoints() {
         <div className="text-center max-w-2xl mx-auto" data-animate>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
             こうした曖昧な状態をそのまま相談できる、<br className="hidden sm:inline" />
-            <span className="font-semibold text-navy-800">身近なITパートナー</span>として伴走します。
+            <span className="font-semibold text-navy-800">事業に必要なIT活用を整理するパートナー</span>として伴走します。
           </p>
         </div>
       </div>

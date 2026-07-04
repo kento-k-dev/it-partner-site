@@ -84,8 +84,8 @@ export default function ServiceMenu() {
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
         {/* Heading */}
         <div className="text-center mb-12" data-animate>
-          <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Menu &amp; Pricing</p>
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">支援メニューと料金の目安</h2>
+          <p className="text-xs font-semibold text-navy-500 tracking-widest uppercase mb-3">Menu</p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-4">支援メニュー</h2>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
             ご相談内容や支援範囲に応じて進め方は変わりますが、主なメニューと料金の目安は以下の通りです。
             まずは状況や目的を整理し、必要な形をご提案します。
