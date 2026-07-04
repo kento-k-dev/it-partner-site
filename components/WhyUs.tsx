@@ -54,17 +54,6 @@ const REASONS = [
     ),
   },
   {
-    title: '小さく始められる',
-    body: 'いきなり大きな開発や高額な制作ではなく、今必要なことから段階的に進めます。',
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <rect x="4" y="14" width="4" height="6" rx="1" fill="#1a3558" opacity="0.3"/>
-        <rect x="10" y="10" width="4" height="10" rx="1" fill="#1a3558" opacity="0.5"/>
-        <rect x="16" y="6" width="4" height="14" rx="1" fill="#1a3558" opacity="0.8"/>
-      </svg>
-    ),
-  },
-  {
     title: '成果を約束する前に、判断材料を整える',
     body: 'いきなり制作や導入を進めるのではなく、何を優先すべきか、どこまで外注するか、どう進めるかを整理し、判断しやすい状態をつくります。',
     icon: (
