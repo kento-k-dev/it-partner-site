@@ -112,36 +112,36 @@ function HeroIllustration() {
       <rect x="144" y="64" width="432" height="238" rx="4" fill="rgba(4,10,28,0.97)"/>
 
       {/* Card 1: 課題を整理 — square (blue) */}
-      <rect x="169" y="90" width="118" height="118" rx="10" stroke="rgba(96,165,250,0.8)" strokeWidth="2" fill="rgba(96,165,250,0.07)"/>
-      <circle cx="228" cy="128" r="26" stroke="rgba(96,165,250,0.4)" strokeWidth="1.5" fill="rgba(96,165,250,0.13)"/>
-      <circle cx="225" cy="125" r="10" stroke="rgba(96,165,250,1)" strokeWidth="2" fill="none"/>
-      <line x1="233.5" y1="133.5" x2="241" y2="141" stroke="rgba(96,165,250,1)" strokeWidth="2.5" strokeLinecap="round"/>
-      <text x="228" y="181" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
+      <rect x="169" y="124" width="118" height="118" rx="10" stroke="rgba(96,165,250,0.8)" strokeWidth="2" fill="rgba(96,165,250,0.07)"/>
+      <circle cx="228" cy="162" r="26" stroke="rgba(96,165,250,0.4)" strokeWidth="1.5" fill="rgba(96,165,250,0.13)"/>
+      <circle cx="225" cy="159" r="10" stroke="rgba(96,165,250,1)" strokeWidth="2" fill="none"/>
+      <line x1="233.5" y1="167.5" x2="241" y2="175" stroke="rgba(96,165,250,1)" strokeWidth="2.5" strokeLinecap="round"/>
+      <text x="228" y="215" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">課題を整理</text>
 
       {/* Arrow 1→2 */}
-      <line x1="289" y1="128" x2="299" y2="128" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
-      <path d="M295 123 L303 128 L295 133" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <line x1="289" y1="162" x2="299" y2="162" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
+      <path d="M295 157 L303 162 L295 167" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
       {/* Card 2: 進め方を設計 — square (green) */}
-      <rect x="301" y="90" width="118" height="118" rx="10" stroke="rgba(52,211,153,0.8)" strokeWidth="2" fill="rgba(52,211,153,0.07)"/>
-      <circle cx="360" cy="128" r="26" stroke="rgba(52,211,153,0.4)" strokeWidth="1.5" fill="rgba(52,211,153,0.13)"/>
-      <rect x="351" y="117" width="18" height="23" rx="2.5" stroke="rgba(52,211,153,1)" strokeWidth="1.8" fill="none"/>
-      <rect x="354" y="114" width="12" height="6" rx="1.5" stroke="rgba(52,211,153,0.8)" strokeWidth="1.5" fill="rgba(52,211,153,0.3)"/>
-      <line x1="354" y1="125" x2="365" y2="125" stroke="rgba(52,211,153,0.8)" strokeWidth="1.4" strokeLinecap="round"/>
-      <line x1="354" y1="130" x2="365" y2="130" stroke="rgba(52,211,153,0.7)" strokeWidth="1.4" strokeLinecap="round"/>
-      <line x1="354" y1="135" x2="361" y2="135" stroke="rgba(52,211,153,0.5)" strokeWidth="1.4" strokeLinecap="round"/>
-      <text x="360" y="181" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
+      <rect x="301" y="124" width="118" height="118" rx="10" stroke="rgba(52,211,153,0.8)" strokeWidth="2" fill="rgba(52,211,153,0.07)"/>
+      <circle cx="360" cy="162" r="26" stroke="rgba(52,211,153,0.4)" strokeWidth="1.5" fill="rgba(52,211,153,0.13)"/>
+      <rect x="351" y="151" width="18" height="23" rx="2.5" stroke="rgba(52,211,153,1)" strokeWidth="1.8" fill="none"/>
+      <rect x="354" y="148" width="12" height="6" rx="1.5" stroke="rgba(52,211,153,0.8)" strokeWidth="1.5" fill="rgba(52,211,153,0.3)"/>
+      <line x1="354" y1="159" x2="365" y2="159" stroke="rgba(52,211,153,0.8)" strokeWidth="1.4" strokeLinecap="round"/>
+      <line x1="354" y1="164" x2="365" y2="164" stroke="rgba(52,211,153,0.7)" strokeWidth="1.4" strokeLinecap="round"/>
+      <line x1="354" y1="169" x2="361" y2="169" stroke="rgba(52,211,153,0.5)" strokeWidth="1.4" strokeLinecap="round"/>
+      <text x="360" y="215" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">進め方を設計</text>
 
       {/* Arrow 2→3 */}
-      <line x1="421" y1="128" x2="431" y2="128" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
-      <path d="M427 123 L435 128 L427 133" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <line x1="421" y1="162" x2="431" y2="162" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
+      <path d="M427 157 L435 162 L427 167" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
       {/* Card 3: 実行を伴走 — square (gold) */}
-      <rect x="433" y="90" width="118" height="118" rx="10" stroke="rgba(212,170,74,0.8)" strokeWidth="2" fill="rgba(212,170,74,0.07)"/>
-      <circle cx="492" cy="128" r="26" stroke="rgba(212,170,74,0.4)" strokeWidth="1.5" fill="rgba(212,170,74,0.13)"/>
-      <circle cx="492" cy="122" r="7.5" stroke="rgba(212,170,74,1)" strokeWidth="1.8" fill="none"/>
-      <path d="M481 140 C481 133 486 130 492 130 C498 130 503 133 503 140" stroke="rgba(212,170,74,1)" strokeWidth="1.8" strokeLinecap="round" fill="none"/>
-      <text x="492" y="181" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
+      <rect x="433" y="124" width="118" height="118" rx="10" stroke="rgba(212,170,74,0.8)" strokeWidth="2" fill="rgba(212,170,74,0.07)"/>
+      <circle cx="492" cy="162" r="26" stroke="rgba(212,170,74,0.4)" strokeWidth="1.5" fill="rgba(212,170,74,0.13)"/>
+      <circle cx="492" cy="156" r="7.5" stroke="rgba(212,170,74,1)" strokeWidth="1.8" fill="none"/>
+      <path d="M481 174 C481 167 486 164 492 164 C498 164 503 167 503 174" stroke="rgba(212,170,74,1)" strokeWidth="1.8" strokeLinecap="round" fill="none"/>
+      <text x="492" y="215" textAnchor="middle" fill="rgba(255,255,255,0.95)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">実行を伴走</text>
 
       {/* Laptop base */}
       <path d="M84 314 Q84 326 98 326 L622 326 Q636 326 636 314 L588 314 L132 314 Z" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" fill="rgba(255,255,255,0.03)"/>
