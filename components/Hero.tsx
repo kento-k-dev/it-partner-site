@@ -24,9 +24,9 @@ export default function Hero() {
 
             {/* 2. Main headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug tracking-tight max-w-lg">
-              Web制作やIT活用を、
+              Web制作やIT活用の進め方を、
               <br className="hidden sm:inline" />
-              事業に合う形に整理します。
+              事業に合わせて整理します。
             </h1>
 
             {/* 3. Body */}
