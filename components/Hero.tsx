@@ -160,8 +160,14 @@ function HeroIllustration() {
       {/* Circle BL: 外注相談 (blue) */}
       <circle cx="65" cy="240" r="52" stroke="rgba(96,165,250,0.2)" strokeWidth="1.5" fill="rgba(96,165,250,0.03)"/>
       <circle cx="65" cy="240" r="39" stroke="rgba(96,165,250,0.6)" strokeWidth="1.5" fill="rgba(96,165,250,0.08)"/>
-      <path d="M45 232 L53 225 L65 230 L77 225 L85 232" stroke="rgba(96,165,250,0.9)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <path d="M46 238 L65 246 L84 238" stroke="rgba(96,165,250,0.5)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <path d="M49 251 L59 242" stroke="rgba(96,165,250,0.9)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      <path d="M81 251 L71 242" stroke="rgba(96,165,250,0.9)" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
+      <path d="M57 244 Q57 237 65 235 Q73 237 73 244" stroke="rgba(96,165,250,0.9)" strokeWidth="1.8" strokeLinecap="round" fill="none"/>
+      <line x1="57" y1="244" x2="73" y2="244" stroke="rgba(96,165,250,0.7)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="60" y1="240" x2="60" y2="232" stroke="rgba(96,165,250,0.85)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="63.5" y1="238" x2="63.5" y2="230" stroke="rgba(96,165,250,0.7)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="70" y1="240" x2="70" y2="232" stroke="rgba(96,165,250,0.85)" strokeWidth="1.5" strokeLinecap="round"/>
+      <line x1="66.5" y1="238" x2="66.5" y2="230" stroke="rgba(96,165,250,0.7)" strokeWidth="1.5" strokeLinecap="round"/>
       <text x="65" y="259" textAnchor="middle" fill="rgba(255,255,255,0.9)" fontSize="13" fontFamily="system-ui,sans-serif" fontWeight="700">外注相談</text>
       <line x1="110" y1="214" x2="132" y2="201" stroke="rgba(255,255,255,0.2)" strokeWidth="1" strokeDasharray="4,3"/>
 
