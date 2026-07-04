@@ -52,22 +52,6 @@ const TOPICS = [
     title: '制作会社・開発会社に依頼する前の整理',
     body: '提案内容・見積もりの妥当性確認、依頼範囲の整理、外注前の要件整理をサポートします。',
   },
-  {
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <rect x="4" y="8" width="6" height="6" rx="1.5" fill="#1a3558" opacity="0.6"/>
-        <rect x="4" y="17" width="6" height="6" rx="1.5" fill="#1a3558" opacity="0.3"/>
-        <line x1="10" y1="11" x2="14" y2="11" stroke="#1a3558" strokeWidth="1.2" strokeLinecap="round"/>
-        <line x1="14" y1="11" x2="14" y2="20" stroke="#1a3558" strokeWidth="1.2"/>
-        <line x1="10" y1="20" x2="14" y2="20" stroke="#1a3558" strokeWidth="1.2" strokeLinecap="round"/>
-        <rect x="15" y="8" width="9" height="4" rx="1" stroke="#1a3558" strokeWidth="1.2" fill="none" opacity="0.7"/>
-        <rect x="15" y="16" width="9" height="4" rx="1" stroke="#1a3558" strokeWidth="1.2" fill="none" opacity="0.5"/>
-        <rect x="15" y="22" width="6" height="3" rx="1" stroke="#1a3558" strokeWidth="1.2" fill="none" opacity="0.3"/>
-      </svg>
-    ),
-    title: '業務改善やツール導入の方向整理',
-    body: '何から着手すべきか、どのツールが事業に合うか、優先順位を整理します。導入前に方向性を確認したい方に。',
-  },
 ]
 
 export default function ConsultationTopics() {
@@ -82,7 +66,7 @@ export default function ConsultationTopics() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 gap-5">
           {TOPICS.map((item, i) => (
             <div
               key={item.title}
