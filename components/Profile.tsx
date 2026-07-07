@@ -95,7 +95,8 @@ function ProfileIllustration() {
         src="/profile.png"
         alt="プロフィール写真"
         fill
-        className="object-cover object-top"
+        className="object-cover"
+        style={{ objectPosition: '65% 5%' }}
         sizes="(max-width: 640px) 176px, 208px"
         priority
       />
