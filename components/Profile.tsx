@@ -17,6 +17,8 @@ const TIMELINE = [
   },
 ]
 
+import Image from 'next/image'
+
 export default function Profile() {
   return (
     <section id="profile" className="bg-linear-to-br from-navy-950 via-navy-900 to-navy-800 py-20 sm:py-28 relative overflow-hidden">
@@ -88,23 +90,15 @@ export default function Profile() {
 
 function ProfileIllustration() {
   return (
-    <svg
-      viewBox="0 0 200 200"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-36 h-36 sm:w-44 sm:h-44"
-      aria-hidden="true"
-    >
-      <circle cx="100" cy="100" r="96" stroke="rgba(255,255,255,0.1)" strokeWidth="1" fill="rgba(255,255,255,0.04)"/>
-      <circle cx="100" cy="100" r="70" stroke="rgba(255,255,255,0.08)" strokeWidth="1" fill="rgba(255,255,255,0.03)"/>
-      {/* Person silhouette */}
-      <circle cx="100" cy="74" r="22" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" fill="rgba(255,255,255,0.08)"/>
-      <path d="M55 144 C55 120 75 108 100 108 C125 108 145 120 145 144" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" fill="rgba(255,255,255,0.06)" strokeLinecap="round"/>
-      {/* Badge / document detail */}
-      <rect x="82" y="148" width="36" height="26" rx="4" stroke="rgba(212,170,74,0.7)" strokeWidth="1" fill="rgba(212,170,74,0.1)"/>
-      <line x1="88" y1="155" x2="112" y2="155" stroke="rgba(212,170,74,0.6)" strokeWidth="1" strokeLinecap="round"/>
-      <line x1="88" y1="160" x2="108" y2="160" stroke="rgba(212,170,74,0.4)" strokeWidth="1" strokeLinecap="round"/>
-      <line x1="88" y1="165" x2="110" y2="165" stroke="rgba(212,170,74,0.3)" strokeWidth="1" strokeLinecap="round"/>
-    </svg>
+    <div className="relative w-44 h-44 sm:w-52 sm:h-52 rounded-full overflow-hidden ring-2 ring-white/15 shadow-xl">
+      <Image
+        src="/profile.png"
+        alt="プロフィール写真"
+        fill
+        className="object-cover object-top"
+        sizes="(max-width: 640px) 176px, 208px"
+        priority
+      />
+    </div>
   )
 }
