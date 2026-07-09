@@ -19,7 +19,7 @@ export default function Hero() {
 
             {/* 1. Label */}
             <span className="inline-flex items-center text-xs font-semibold tracking-[0.14em] text-blue-300/75 border border-blue-400/25 rounded-full px-3.5 py-1.5">
-              事業のITパートナー
+              WebとITの相談パートナー
             </span>
 
             {/* 2. Main headline */}

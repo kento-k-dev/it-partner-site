@@ -44,7 +44,7 @@ export default function Header() {
               scrolled ? 'text-navy-900' : 'text-white'
             }`}
           >
-            事業のITパートナー
+            WebとITの相談パートナー
           </a>
 
           {/* Desktop nav */}

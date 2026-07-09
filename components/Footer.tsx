@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <p className="text-white font-bold text-base">事業のITパートナー</p>
+            <p className="text-white font-bold text-base">WebとITの相談パートナー</p>
             <p className="text-blue-300/50 text-xs mt-1">中小企業・個人事業主向け IT・Web・AI活用支援</p>
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-6 border-t border-white/5 text-center">
           <p className="text-blue-300/30 text-xs">
-            &copy; {year} 事業のITパートナー. All rights reserved.
+            &copy; {year} WebとITの相談パートナー. All rights reserved.
           </p>
         </div>
       </div>

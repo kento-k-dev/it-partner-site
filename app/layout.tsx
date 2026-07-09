@@ -10,11 +10,11 @@ const noto = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: '事業のITパートナー｜中小企業・個人事業主向け IT・Web・AI活用支援',
+  title: 'WebとITの相談パートナー｜中小企業・個人事業主向け IT・Web・AI活用支援',
   description:
     '中小企業・個人事業主のIT・Web・AI活用を、わかりやすく整理し、実行まで伴走します。Web制作、AI活用、アプリ企画、業務改善、外注・見積もり相談まで対応。',
   openGraph: {
-    title: '事業のITパートナー｜中小企業・個人事業主向け IT・Web・AI活用支援',
+    title: 'WebとITの相談パートナー｜中小企業・個人事業主向け IT・Web・AI活用支援',
     description:
       '中小企業・個人事業主のIT・Web・AI活用を、わかりやすく整理し、実行まで伴走します。',
     locale: 'ja_JP',
